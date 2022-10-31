@@ -1,7 +1,12 @@
+:root{
+
+
+}
 * {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,14 +15,17 @@ body {
 
 header {
     padding: 30px;
+    border-color: black;
     font-family: ;
-    background-color: ;
+    background-color: lightsteelblue;
     color: ;
 }
 
 header h1 {
     display: inline-block;
-    font-size: ;
+    font-size: 50px;
+    font-family: ;
+    margin-left: 50px;
     margin-right: 30px;
 }
 
@@ -31,7 +39,9 @@ header nav {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 20px;
 }
 
 a{
@@ -47,6 +57,40 @@ a{
 }
 
 .content h2{
+    
+}
+
+#about-me {
+    width: 20%;
+    height: 300px;
+    padding: 25px;
+    border: 2px solid black;
+    margin: 70px;
+    margin-top: 50px;
+    border-radius: 10%;
+
+
+}
+
+#work{
+    padding: 25px;
+    margin: 70px;
+    width: 50%;
+}
+
+#contact-me{
+    width: 20%;
+    height: 300px;
+    padding: 25px;
+    border: 2px solid black;
+    margin: 70px;
+    border-radius: 10%;
+
+}
+
+#resume{
+    padding: 70px;
+    margin: 25px;
 
 }
 
