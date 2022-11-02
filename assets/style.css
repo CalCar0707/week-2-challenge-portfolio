@@ -7,15 +7,15 @@
    padding: 0;
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
 }
 
 body {
-    background-color: ;
+    background-color: lightgray;
 }
 
 header {
     padding: 30px;
-    border-color: black;
     font-family: ;
     background-color: lightsteelblue;
     color: ;
@@ -57,6 +57,8 @@ a{
 }
 
 .content h2{
+    font-size: 24px;
+    font-family: ;
     
 }
 
@@ -67,7 +69,6 @@ a{
     border: 2px solid black;
     margin: 70px;
     margin-top: 50px;
-    border-radius: 10%;
 
 
 }
@@ -76,6 +77,7 @@ a{
     padding: 25px;
     margin: 70px;
     width: 50%;
+
 }
 
 #contact-me{
@@ -84,7 +86,6 @@ a{
     padding: 25px;
     border: 2px solid black;
     margin: 70px;
-    border-radius: 10%;
 
 }
 
@@ -94,9 +95,10 @@ a{
 
 }
 
-img {
-
-
+img{
+ width: 20%;
+ margin: 70px;
+ border-radius: 20%;
 }
 
 footer{
