@@ -44,6 +44,12 @@ header nav ul li {
     font-size: 20px;
 }
 
+#profile{
+    width: 20%;
+    margin: 70px;
+    border-radius: 20%;
+
+}
 a{
     color: ;
 
@@ -96,9 +102,7 @@ a{
 }
 
 img{
- width: 20%;
- margin: 70px;
- border-radius: 20%;
+ 
 }
 
 footer{
