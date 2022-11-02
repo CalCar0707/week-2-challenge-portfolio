@@ -3,7 +3,6 @@
 
 }
 * {
-   box-sizing: border-box;
    padding: 0;
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
@@ -25,8 +24,8 @@ header h1 {
     display: inline-block;
     font-size: 50px;
     font-family: ;
-    margin-left: 50px;
-    margin-right: 30px;
+    margin-left: 80px;
+    margin-right: 50px;
 }
 
 header nav {
@@ -45,10 +44,11 @@ header nav ul li {
 }
 
 #profile{
+    display: block;
     width: 20%;
-    margin: 70px;
+    margin: 80px;
     border-radius: 20%;
-
+    
 }
 a{
     color: ;
@@ -56,9 +56,11 @@ a{
 }
 
 .content {
-    width: ;
-    display: ;
-    margin-left: ;
+    display: inline;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+    
 
 }
 
@@ -73,16 +75,23 @@ a{
     height: 300px;
     padding: 25px;
     border: 2px solid black;
-    margin: 70px;
+    margin: 80px;
     margin-top: 50px;
-
+    
 
 }
 
 #work{
+    flex-direction: row;
+    align-content: center;
     padding: 25px;
     margin: 70px;
     width: 50%;
+    
+}
+
+#main-work{
+    width: 49%;
 
 }
 
@@ -95,11 +104,6 @@ a{
 
 }
 
-#resume{
-    padding: 70px;
-    margin: 25px;
-
-}
 
 img{
  
