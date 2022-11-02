@@ -15,15 +15,14 @@ body {
 
 header {
     padding: 30px;
-    font-family: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightsteelblue;
-    color: ;
+    color: navy;
 }
 
 header h1 {
     display: inline-block;
     font-size: 50px;
-    font-family: ;
     margin-left: 80px;
     margin-right: 50px;
 }
@@ -32,8 +31,6 @@ header nav {
     padding-top: 20px;
     margin-right: 20px;
     float: right;
-    font-family: ;
-    font-size: ;
 }
 
 header nav ul li {
@@ -48,21 +45,13 @@ header nav ul li {
     width: 20%;
     margin: 80px;
     border-radius: 20%;
-    
-}
-a{
-    color: ;
-
+    float: left;
 }
 
 .content {
-    display: inline;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    
-    
+    display: inline-block;
 
-}
+}    
 
 .content h2{
     font-size: 24px;
@@ -75,18 +64,17 @@ a{
     height: 300px;
     padding: 25px;
     border: 2px solid black;
-    margin: 80px;
+    margin: 60px;
     margin-top: 50px;
-    
 
 }
 
 #work{
-    flex-direction: row;
-    align-content: center;
     padding: 25px;
     margin: 70px;
     width: 50%;
+    float: right;
+    background-color: lightsteelblue;
     
 }
 
@@ -94,6 +82,11 @@ a{
     width: 49%;
 
 }
+
+#work img {
+    height: 300x;
+    max-width: 250px;
+   }
 
 #contact-me{
     width: 20%;
@@ -104,10 +97,6 @@ a{
 
 }
 
-
-img{
- 
-}
 
 footer{
     padding: ;
